@@ -64,7 +64,7 @@ contract HawkDoveBet {
         balanceOf[msg.sender] += amount;
     }
     
-    function beginGame() onlyPlayer public {
+    function beginGame() onlyPlayer onlyNotInGame public {
         //uint totalAmount = betAmount + stakeAmount;
         require(balanceOf[person1] >= totalAmount && balanceOf[person2] >= totalAmount);
         inGame = true;
