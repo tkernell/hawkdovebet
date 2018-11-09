@@ -1,6 +1,6 @@
 # hawkDoveBet
 
-This is a betting contract where two individuals bet on some future outcome. They must each deposit a `stakeAmount` and a `betAmount`. Once the outcome has occured, the individuals each report whether they won or lost the bet. If one reports a win and the other reports a loss, the winner receives both individuals' bet amounts as well as the winner's refunded stake amount. If both individuals report a loss, then they each get to withdraw all of their respective funds. If both players report a win, however, all funds are burned. 
+This is a betting contract where two individuals bet on some future outcome. They must each deposit a `stakeAmount` and a `betAmount`. Once the outcome has occured, the individuals each report whether they won or lost the bet, `iWin` or `iLose`. If one reports a win and the other reports a loss, the winner receives both individuals' `betAmount`'s as well as the winner's refunded `stakeAmount`. If both individuals report a loss, then they each get to withdraw all of their respective funds. If both players report a win, however, all funds are burned. 
 
 ### Rationale
 
