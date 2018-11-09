@@ -107,6 +107,5 @@ contract HawkDoveBet {
         uint tempBal = balanceOf[msg.sender];
         balanceOf[msg.sender] = 0;
         msg.sender.transfer(tempBal);
-    }
-    
+    }   
 }
