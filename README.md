@@ -4,4 +4,4 @@ This is a betting contract where two individuals bet on some future outcome. The
 
 ### Rationale
 
-This is a situation akin to territorial behavior, where an individual will defend his or her property even if that fight is very costly to the individual. A potential attacker, taking this into consideration, will 
+This is a situation akin to territorial behavior, where an individual will defend his or her property even if that fight is very costly to the individual. A potential attacker, taking this into consideration, will be less likely to try to take another individual's territory.
