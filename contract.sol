@@ -1,5 +1,5 @@
 pragma solidity ^0.4.25;
-
+// Enforcement mechanism
 contract HawkDoveBet {
     
     address public person1;
